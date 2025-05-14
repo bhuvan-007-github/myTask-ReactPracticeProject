@@ -1,4 +1,60 @@
-The goal of this coding exam is to quickly get you off the ground with **Lists and Keys**.
+# 📝 My Task – Task Management App
+
+A lightweight **React.js** application designed to capture and categorize user-defined tasks. This project demonstrates best practices in modern front-end development, including component-based design, effective state management, and integration of key third-party libraries.
+
+---
+
+## 🚀 Project Objective
+
+This project serves as a demonstration of clean React practices and usage of key libraries.
+- Component-driven UI architecture
+- Dynamic state handling using class components
+- **Lists and Keys** usage
+- Use of libraries such as `styled-components` for styling and `uuid` for unique key generation
+
+
+---
+
+## 🧰 Tech Stack
+
+- **React.js** – Front-end JavaScript library
+- **JavaScript (ES6+)**
+- **HTML5**
+- **Styled-components** – For component-scoped CSS styling
+- **UUID** – For generating unique identifiers
+- **Git & GitHub** – For version control and collaboration
+
+---
+
+## ✅ Features
+
+- Users can:
+  - Input task **descriptions**
+  - Select a **task category** from a dropdown
+  - Click **"Add Task"** to submit
+
+- All tasks are displayed after submission
+- Task filtering is supported:
+  - Clicking on a tag filters tasks by that category
+  - Clicking the tag again will remove the filter
+- Implements efficient array methods:
+  - `map()` – for rendering lists
+  - `filter()` – for conditional task display
+
+---
+
+## 🧪 How to Use
+
+1. Enter a task description into the input field.
+2. Select a category from the dropdown menu.
+3. Click the **"Add Task"** button to submit.
+4. Use the tag buttons above the task list to filter tasks by category.
+
+> To remove the filter, click the active tag again.
+
+---
+
+
 
 ### Refer to the image below:
 
@@ -31,42 +87,6 @@ The goal of this coding exam is to quickly get you off the ground with **Lists a
 - Start up the app using `npm start`
 </details>
 
-### Completion Instructions
-
-<details>
-<summary>Functionality to be added</summary>
-<br/>
-
-The app must have the following functionalities
-
-- Initially, the list of tasks and `Task` input should be empty and the active option in the `Tags` select element should be the first item of the given tagsList.
-- When non-empty values are provided for Tasks, Tags and the **Add Task** button is clicked,
-  - A new task should be added to the list of tasks.
-  - The value inside the `Task` input and `Tag` select elements should be updated to their initial values.
-- When a single tag is clicked it should be changed to an active state and filtered tasks should be displayed accordingly.
-- When no tag in the list of tags is active, then all the tasks should be displayed.
-- The `App` component consists of the `tagsList`. It consists of a list of tag details objects with the following properties in each object.
-
-  |     key     | DataType |
-  | :---------: | :------: |
-  |  optionId   |  String  |
-  | displayText |  String  |
-
-</details>
-
-### Important Note
-
-<details>
-<summary>Click to view</summary>
-
-<br/>
-
-**The following instruction is required for the tests to pass**
-
-- Use the `uuid` package to generate the unique id.
-
-</details>
-
 <details>
 <summary>Colors</summary>
 
@@ -94,7 +114,5 @@ The app must have the following functionalities
 
 </details>
 
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
+👤 Author
+GitHub: @bhuvan-007-github
