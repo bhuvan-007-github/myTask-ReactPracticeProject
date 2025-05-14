@@ -58,11 +58,8 @@ This project serves as a demonstration of clean React practices and usage of key
 
 ### Refer to the image below:
 
-<br/>
-<div style="text-align: center;">
-    <img src="https://assets.ccbp.in/frontend/content/react-js/my-tasks-output.gif" alt="Character Counter" style="max-width:70%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
-</div>
-<br/>
+![App Screenshot](https://assets.ccbp.in/frontend/content/react-js/my-tasks-output.png)
+
 
 
 ### Design Files
